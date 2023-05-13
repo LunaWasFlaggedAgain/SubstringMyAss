@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.lunawasflaggedagain.substringmyass.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ChatScreenMixin",
+    "StringHelperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
